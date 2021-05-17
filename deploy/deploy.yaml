@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: observerward
+  namespace: prometheus
+  labels:
+    prometheus-app: observerward
+spec:
+  selector:
+    matchLabels:
+      name: observerward
+  template:
+    metadata:
+      labels:
+        name: observerward
+    spec:
+      containers:
+        - name: observerward
+          image: observerward:latest
+          imagePullPolicy: IfNotPresent
+
