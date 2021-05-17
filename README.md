@@ -14,4 +14,7 @@ Run the command below:
 kubectl apply -f deploy/deploy.yaml
 ```
 
-Then visit the URL: http://<your-prometheus-machine-ip>:30090
+Then visit the URL: "http://<your-prometheus-machine-ip>:30090"
+
+# Acknowledgement
+South China University of Technology, Big Data and Cloud Computing Lab
