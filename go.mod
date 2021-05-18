@@ -1,4 +1,4 @@
-module observerward
+module github.com/jiangxiaosheng/observerward
 
 go 1.15
 
