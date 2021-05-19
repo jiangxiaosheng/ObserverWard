@@ -4,10 +4,10 @@ import (
 	"flag"
 	"fmt"
 	"github.com/NVIDIA/gpu-monitoring-tools/bindings/go/nvml"
+	"github.com/observerward/pkg/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"k8s.io/klog"
 	"net/http"
-	"observerward/pkg/prometheus"
 	"strconv"
 )
 

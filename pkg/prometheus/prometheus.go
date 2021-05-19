@@ -1,9 +1,9 @@
 package prometheus
 
 import (
+	"github.com/observerward/pkg/scraper"
 	"github.com/prometheus/client_golang/prometheus"
 	"k8s.io/klog"
-	"observerward/pkg/scraper"
 	"os"
 	"strconv"
 	"time"

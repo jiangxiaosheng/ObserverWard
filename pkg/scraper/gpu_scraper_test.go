@@ -1,14 +1,13 @@
-package test
+package scraper
 
 import (
 	"fmt"
-	"observerward/pkg/scraper"
 	"testing"
 )
 
 func TestGPUScraper(t *testing.T) {
-	sc := scraper.NewGPUMetricsScraper()
-	metrics, err := scraper.NewGPUMetrics()
+	sc := NewGPUMetricsScraper()
+	metrics, err := NewGPUMetrics()
 	if err != nil {
 		fmt.Printf("%v", err)
 		return
